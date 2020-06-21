@@ -1,0 +1,133 @@
+﻿<Window x:Class="X_O.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:X_O"
+        mc:Ignorable="d"
+        Title="XO Game" 
+        WindowStyle="ThreeDBorderWindow"
+        
+        Height="235" 
+        Width="255"
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize"
+        MinHeight="235"
+        MinWidth="255" 
+        Background="#FF424242"
+        
+        >
+    <Grid>
+
+        <Button x:Name="one" 
+                Tag="1"
+                FontSize="40"
+                HorizontalAlignment="Left" 
+                Margin="5,5,0,0" 
+                VerticalAlignment="Top"
+                Width="75"
+                Height="60" 
+                Click="one_Click"
+                BorderThickness="2"
+                Content=""
+                
+                >
+
+
+
+
+        </Button>
+        <Button x:Name="four"
+                Tag="4"
+                Content="" 
+                FontSize="40"
+            HorizontalAlignment="Left" 
+            Margin="05,70,0,0" 
+            VerticalAlignment="Top"
+            Width="75"
+            Height="60"
+                BorderThickness="2"
+                Click="one_Click"/>
+        
+        <Button x:Name="seven"
+                Tag="7"
+                Content="" 
+                FontSize="40"
+            HorizontalAlignment="Left" 
+            Margin="05,135,0,0" 
+            VerticalAlignment="Top"
+            Width="75"
+            Height="60"
+                BorderThickness="2"
+                Click="one_Click"/>
+        <Button x:Name="two" 
+                Tag="2"
+                Content="" 
+                FontSize="40"
+            HorizontalAlignment="Left" 
+            Margin="85,5,0,0" 
+            VerticalAlignment="Top"
+            Width="75"
+            Height="60" 
+                BorderThickness="2"
+                Click="one_Click"/>
+        <Button x:Name="five"
+                Tag="5"
+                Content="" 
+                FontSize="40"
+            HorizontalAlignment="Left" 
+            Margin="85,70,0,0" 
+            VerticalAlignment="Top"
+            Width="75"
+            Height="60"
+                BorderThickness="2"
+                Click="one_Click"/>
+        <Button x:Name="eight"
+                Tag="8"
+                Content="" 
+                FontSize="40"
+            HorizontalAlignment="Left" 
+            Margin="85,135,0,0" 
+            VerticalAlignment="Top"
+            Width="75"
+            Height="60"
+                BorderThickness="2"
+                Click="one_Click"/>
+        <Button x:Name="three"
+                Tag="3"
+                Content="" 
+                FontSize="40"
+            HorizontalAlignment="Left" 
+            Margin="165,05,0,0" 
+            VerticalAlignment="Top"
+            Width="75"
+            Height="60"
+                BorderThickness="2"
+                Click="one_Click"/>
+        <Button x:Name="six" 
+                Tag="6"
+                Content="" 
+                FontSize="40"
+            HorizontalAlignment="Left" 
+            Margin="165,70,0,0" 
+            VerticalAlignment="Top"
+            Width="75"
+            Height="60"
+                BorderThickness="2"
+                Click="one_Click"/>
+        <Button x:Name="nine"
+                Tag="9"
+                Content="" 
+                FontSize="40"
+            HorizontalAlignment="Left" 
+            Margin="165,135,0,0" 
+            VerticalAlignment="Top"
+            Width="75"
+            Height="60"
+                BorderThickness="2"
+                Click="one_Click"
+                />
+            
+
+    </Grid>
+</Window>
