@@ -1,0 +1,6 @@
+C:\Users\Doomstorm\source\repos\Test_Engine_Console\Test_Engine_Console\bin\Debug\Test_Engine_Console.exe.config
+C:\Users\Doomstorm\source\repos\Test_Engine_Console\Test_Engine_Console\bin\Debug\Test_Engine_Console.exe
+C:\Users\Doomstorm\source\repos\Test_Engine_Console\Test_Engine_Console\bin\Debug\Test_Engine_Console.pdb
+C:\Users\Doomstorm\source\repos\Test_Engine_Console\Test_Engine_Console\obj\Debug\Test_Engine_Console.csprojAssemblyReference.cache
+C:\Users\Doomstorm\source\repos\Test_Engine_Console\Test_Engine_Console\obj\Debug\Test_Engine_Console.exe
+C:\Users\Doomstorm\source\repos\Test_Engine_Console\Test_Engine_Console\obj\Debug\Test_Engine_Console.pdb
