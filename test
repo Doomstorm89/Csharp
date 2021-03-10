@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace CalculationLibrary
+{
+    /*Задание:
+       Напишите на C# библиотеку для поставки внешним клиентам, 
+       которая умеет вычислять площадь круга по радиусу и треугольника по трем сторонам. 
+       Дополнительно к работоспособности оценим:
+       - Юнит-тесты
+       - Легкость добавления других фигур
+       - Вычисление площади фигуры без знания типа фигуры
+       - Проверку на то, является ли треугольник прямоугольным
+       */
+    public static class Calculation
+    {        
+        static Calculation()
+        {
+            
+        }
+        public static double Circle (double radius) 
+        {
+            return Math.PI * Math.Pow(Math.Abs(radius), 2);        
+        }
+
+        public static double Triangle (double a, double b, double c)
+        {
+            return Math.Abs(a + b + c) / 2;
+        }
+       
+        public static bool isRigthTriangle(double a, double b, double c)
+        {
+            List<double> list = new List<double>();
+            list.Add(a); list.Add(b); list.Add(c);
+            if(Math.Abs(Math.Pow(list.Max(),2)) == 
+                Math.Abs(Math.Pow(list.First(e => e!=list.Max()),2) +
+                Math.Abs(Math.Pow(list.Last(e => e != list.Max()), 2))))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
+    }
+}
